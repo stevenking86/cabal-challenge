@@ -11,6 +11,8 @@ class TasksController < ApplicationController
   end
 
   def import
+    puts "PARAMS: "
+    puts params
     # accept the file from params
     # call our importer
     # return success or errors
