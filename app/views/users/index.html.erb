@@ -1,0 +1,4 @@
+<h1>Users</h1>
+<% @users.each do |u| %>
+<p><%= link_to u.name, user_tasks_path(u.id) %></p>
+<% end %>
