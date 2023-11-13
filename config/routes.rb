@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   resources :users do
     resources :tasks
   end
+
+  post "import" => "tasks#import", as: :tasks_import
 end

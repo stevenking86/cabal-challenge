@@ -61,3 +61,7 @@ end
 gem "shakapacker", "= 7.1"
 
 gem "react-rails", "= 3.1.1"
+
+gem "sidekiq", "~> 7.2"
+
+gem "activerecord-import"

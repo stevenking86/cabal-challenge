@@ -9,4 +9,10 @@ class TasksController < ApplicationController
 
   def update
   end
+
+  def import
+    # accept the file from params
+    # call our importer
+    # return success or errors
+  end
 end
